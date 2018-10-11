@@ -1,0 +1,54 @@
+.score {
+    color: rgb(182, 93, 225);
+
+}
+.col-md{
+    float:left;
+}
+.col-sm{
+    float:right;
+    padding-bottom: 0px
+}
+
+.highScore {
+    color: rgb(224, 26, 224);
+   
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgb(173, 216, 230);
+    color: rgb(255, 255, 255);
+    min-height: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100vw;
+    border-bottom: 1px solid black;
+}
+a, .red, .green, .score, .highScore {
+    font-family: 'cursive';
+    -webkit-text-stroke: 0.25px black;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(25, 25, 235);
+}
+
+.red {
+    color: rgb(223, 8, 8);
+}
+
+.green {
+    color: rgb(11, 109, 11);
+}
+
+
